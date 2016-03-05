@@ -12,19 +12,19 @@ import model.Direction;
 public interface EventListener
 { 
     /**
-     * This method moves object (Player) in "direction" direction.
+     * Moves object (Player) in "direction" direction.
      */
     void move(Direction direction);
     /**
-     * This method restarts current level.
+     * Restarts current level.
      */
     void restart();
     /**
-     * This method starts next level.
+     * Starts next level.
      */
     void startNextLevel();
     /**
-     * This method informs view that current level is completed.
+     * Informs view that current level is completed.
      */
     void levelCompleted(int level);
 }
