@@ -10,7 +10,7 @@ import view.View;
  * Created by Nicki on 27.01.2016.
  */
  /**
-  * This class contains the main method of the program.
+  * Сontains the main method of the program.
   */
 public class Controller implements EventListener
 {   
