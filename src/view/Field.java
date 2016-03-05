@@ -32,7 +32,7 @@ public class Field extends JPanel
 
     private EventListener eventListener;
     /**
-     * This method is responsible for drawing of all objects.
+     * Draws all objects.
      */
     public void paint(Graphics g)
     {
@@ -55,8 +55,7 @@ public class Field extends JPanel
     public class KeyHandler extends KeyAdapter
     {
         /**
-         * This method is inherited from KeyAdapter class.
-         * It handles keystrokes, calling corresponding methods of the eventListener.
+         * Handles keystrokes, calling corresponding methods of the eventListener.
          */
         @Override
         public void keyPressed(KeyEvent e)
