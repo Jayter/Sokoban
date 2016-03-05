@@ -22,7 +22,7 @@ public class View extends JFrame
         this.controller = controller;
     }
     /**
-     * This method initializes our view.
+     * Initializes view.
      */
     public void init()
     {
@@ -41,7 +41,7 @@ public class View extends JFrame
         field.setEventListener(eventListener);
     }
     /**
-     * This method updates view repainting the game field.
+     * Updates view repainting the game field.
      */
     public void update()
     {
@@ -53,7 +53,7 @@ public class View extends JFrame
         return controller.getGameObjects();
     }
     /**
-     * This method is called when current level of model is completed.
+     * Informs user that current level is completed, starts new level.
      */
     public void completed(int level)
     {
